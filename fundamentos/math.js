@@ -4,3 +4,4 @@ console.log(area.toFixed(4))
 console.log(typeof Math)
 //estes arquivos vão ser comitados no git!
 //nova mensagen git diff
+//tentativa de push no git hub

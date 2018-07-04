@@ -1,0 +1,64 @@
+<h1>Fomulário</h1>
+
+<form action="http://localhost:3003/usuarios" method="POST">
+    <input type="text" name="nome">
+    <input type="password" name="senha">
+    <textarea name="bio" id="" cols="30" rows="10"></textarea>
+
+<div>
+    <input type="radio" name="tipo" value="Admin"> Admin
+    <input type="radio" name="tipo" value="Regular">Regular
+    <input type="radio" name="tipo" value="Professor">Professor
+
+</div>
+<div>
+    <input type="checkbox" name="ativo">ativo
+</div>
+
+<select name="estado">
+    <option value="selecione">Selecione</option>
+    <option value="ac">Acre</option>
+    <option value="ba">Bahia</option>
+    <option value="ce">Ceará</option>
+</select>
+
+<select name="interesses" multiple size="5">
+    <option value="js">javascript</option>
+    <option value="c#">csharp</option>
+    <option value="go">golang</option>
+    <option value="c++">cmaismais</option>
+</select>
+
+
+<button>incluir</button>
+ <button>Alterar</button>
+
+</form>
+
+
+
+
+
+
+
+
+<style>
+
+input,
+textarea
+textarea {
+    display: block;
+    margin-bottom: 10px;
+    border-color: beige;
+
+}
+
+input[type=radio],
+input[type=checbox]{
+    display: inline;
+}
+
+
+
+
+</style>
